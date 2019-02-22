@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE provider>
+<provider version="1.0" id="telegram">
+    <name>Matrix</name>
+    <description>Matrix account provider</description>
+    <icon>image://theme/graphic-service-matrix</icon>
+</provider>

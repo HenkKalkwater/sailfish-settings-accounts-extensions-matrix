@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service id="matrix">
+    <type>IM</type>
+    <provider>matrix</provider>
+    <name>Matrix IM</name>
+    <icon>image://theme/icon-m-chat</icon>
+
+    <template>
+        <group name="telepathy">
+            <setting name="manager">morse</setting>
+            <setting name="protocol">matrix</setting>
+            <setting name="ConnectAutomatically" type="b">true</setting>
+        </group>
+
+        <group name="auth">
+            <setting name="method">password</setting>
+            <setting name="mechanism">password</setting>
+        </group>
+    </template>
+</service>
