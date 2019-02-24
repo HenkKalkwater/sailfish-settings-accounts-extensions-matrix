@@ -1,4 +1,4 @@
-Name:       sailfish-settings-accounts-extensions-telegram
+Name:       sailfish-settings-accounts-extensions-matrix
 Summary:    Settings plugin for Matrix accounts management
 Version:    0.2.0
 Release:    1
@@ -48,3 +48,9 @@ rm -rf %{buildroot}
 %{_datadir}/accounts/ui/%{_provider_name}.qml
 %{_datadir}/accounts/ui/%{_provider_name}-settings.qml
 %{_datadir}/accounts/ui/%{_provider_name}-update.qml
+
+%{_datadir}/themes/sailfish-default/meegotouch/meegotouch/z1.0/icons/graphic-service-matrix.png
+%{_datadir}/themes/sailfish-default/meegotouch/meegotouch/z1.25/icons/graphic-service-matrix.png
+%{_datadir}/themes/sailfish-default/meegotouch/meegotouch/z1.5/icons/graphic-service-matrix.png
+%{_datadir}/themes/sailfish-default/meegotouch/meegotouch/z1.75/icons/graphic-service-matrix.png
+%{_datadir}/themes/sailfish-default/meegotouch/meegotouch/z2.0/icons/graphic-service-matrix.png

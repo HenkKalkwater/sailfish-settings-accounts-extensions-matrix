@@ -11,7 +11,7 @@ Column {
     property int accountId
     property alias acceptableInput: settings.acceptableInput
 
-    property string _defaultServiceName: "jabber"
+    property string _defaultServiceName: "matrix"
     property bool _saving
 
     signal accountSaveCompleted(var success)
@@ -69,7 +69,7 @@ Column {
         accountDisplayName: account.displayName
     }
 
-    JabberCommon {
+    MatrixCommon {
         id: settings
         enabled: mainAccountSettings.accountEnabled
         opacity: enabled ? 1 : 0
