@@ -9,7 +9,6 @@ Source0:    https://github.com/a-andreyev/%{name}/archive/%{name}-%{version}.tar
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 
-Requires:   libqmatrixclient-qt5 >= 0.5.0
 Requires:   telepathy-tank >= 0.1.0
 Requires:   jolla-settings
 Requires:   jolla-settings-system >= 0.0.43
