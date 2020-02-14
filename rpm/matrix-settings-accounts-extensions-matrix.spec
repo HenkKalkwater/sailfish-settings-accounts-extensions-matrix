@@ -33,6 +33,8 @@ make %{?jobs:-j%jobs}
 %install
 rm -rf %{buildroot}
 %make_install
+mkdir -p %{buildroot}%{_datadir}/icons/hicolor/256x256/apps
+install -m 644 ui/meegotouch/z2.0/icons/graphic-service-matrix.png %{buildroot}%{_datadir}/icons/hicolor/256x256/apps
 
 %post -p /sbin/ldconfig
 
@@ -53,3 +55,4 @@ rm -rf %{buildroot}
 %{_datadir}/themes/sailfish-default/meegotouch/meegotouch/z1.5/icons/graphic-service-matrix.png
 %{_datadir}/themes/sailfish-default/meegotouch/meegotouch/z1.75/icons/graphic-service-matrix.png
 %{_datadir}/themes/sailfish-default/meegotouch/meegotouch/z2.0/icons/graphic-service-matrix.png
+%{_datadir}/icons/hicolor/256x256/apps/graphic-service-matrix.png

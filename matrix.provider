@@ -3,5 +3,5 @@
 <provider version="1.0" id="telegram">
     <name>Matrix</name>
     <description>Matrix account provider</description>
-    <icon>image://theme/graphic-service-matrix</icon>
+    <icon>file:///usr/share/icons/hicolor/256x256/apps/graphic-service-matrix.png</icon>
 </provider>
